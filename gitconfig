@@ -1,0 +1,8 @@
+[user]
+  name = John Olsson
+  email = john@cryon.se
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = ~/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
