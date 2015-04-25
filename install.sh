@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ln -sfhv zshrc ~/.zshrc
-ln -sfhv gitconfig ~/.gitconfig
-ln -sfhv gitignore_global ~/gitignore_global
+ln -sfhv $(pwd)/zshrc ~/.zshrc
+ln -sfhv $(pwd)/gitconfig ~/.gitconfig
+ln -sfhv $(pwd)/gitignore_global ~/gitignore_global
