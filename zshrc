@@ -8,7 +8,7 @@ source $ZSH/oh-my-zsh.sh
 
 setopt rmstarsilent
 
-echo -e "\e[1m\e[92m$(fortune -a -s)"h
+echo -e "\e[1m\e[92m$(fortune -a -s)"
 
 # history stuff
 HISTFILE=$HOME/.zsh_history
