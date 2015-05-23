@@ -7,6 +7,7 @@ plugins=(git osx brew mvn)
 source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/bin/:$PATH
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 setopt rmstarsilent
 
 echo -e "\e[1m\e[92m$(fortune -a -s)"
