@@ -11,6 +11,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export RUST_SRC_PATH=$HOME/code/thirdparty/rustc-1.0.0/src/
 export SCALA_HOME=$HOME/code/thirdparty/scala-2.11.7
 export LIBRARY_PATH=/usr/local/lib
+export PATH=$PATH:$SCALA_HOME/bin
 
 setopt rmstarsilent
 
