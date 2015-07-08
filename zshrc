@@ -9,6 +9,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin/:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export RUST_SRC_PATH=$HOME/code/thirdparty/rustc-1.0.0/src/
+export LIBRARY_PATH=/usr/local/lib
 
 setopt rmstarsilent
 
